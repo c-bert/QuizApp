@@ -42,7 +42,8 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	padding: 30px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 h1, h2, p, section {
