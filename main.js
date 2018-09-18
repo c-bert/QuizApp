@@ -98,7 +98,7 @@ function testMyKnowledgeButton() {
 	//hide start page and show form
 	$(".welcome").click(function() {
    		$(".welcome-page").hide();
-   		$(".start-page", ).show(`<img src="https://media.giphy.com/media/uKxH9YcrnJaG4/giphy.gif" alt="Frank Underwood 'Hunt or be Hunted' GIF">`);
+   		$(".start-page").show();
 });
 }
 
@@ -123,22 +123,22 @@ function showQuizTemplate(correctAnswers, question, questionNumber) {
     <ul>
         <li>
             <input type="radio" id="optionA" name="answer" value="${question.ansArray[0]}">
-            <label for="radioOption">${question.ansArray[0]}</label>
+            <label for="optionA">${question.ansArray[0]}</label>
         </li>
 
         <li>
             <input type="radio" id="optionB" name="answer" value="${question.ansArray[1]}">
-            <label for="radioOption">${question.ansArray[1]}</label>
+            <label for="optionB">${question.ansArray[1]}</label>
        </li>
 
         <li>
             <input type="radio" id="optionC" name="answer" value="${question.ansArray[2]}">
-            <label for="radioOption">${question.ansArray[2]}</label>
+            <label for="optionC">${question.ansArray[2]}</label>
         </li>
 
         <li>
             <input type="radio" id="optionD" name="answer" value="${question.ansArray[3]}">
-            <label for="radioOption">${question.ansArray[3]}</label>
+            <label for="optionD">${question.ansArray[3]}</label>
         </li>
 
         <li >
