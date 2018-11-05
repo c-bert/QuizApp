@@ -12,5 +12,5 @@ First Question
 Final Page will score your results
 <img src="https://github.com/c-bert/QuizApp/blob/Quiz-App-A11y-Fixes/Final%20Screen.png" alt="final score screen shot"
 
-<h4> Features </h4>
+<h5> Summary Features </h5>
 A11y and mobile friendly quiz app built with HTML, CSS, JavaScript, and jQuery.
